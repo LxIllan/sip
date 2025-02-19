@@ -1,0 +1,9 @@
+Options All -Indexes
+
+RewriteEngine On
+
+# Pages
+RewriteRule ^index\.php$ / [R=301,L]
+
+# Api
+RewriteRule ^api/mail/send$ api/mail/send.php
