@@ -34,7 +34,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #84b6f4;
+  --bs-primary: #84b6f4; /* Change this color light */
   --bs-secondary: #2c3e50;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 132, 182, 244;
+  --bs-primary-rgb: 132, 182, 244; /* Change this color light */
   --bs-secondary-rgb: 44, 62, 80;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #84b6f4;
-  --bs-link-hover-color: #4d82bc;
+  --bs-link-color: #84b6f4; /* Change this color light */
+  --bs-link-hover-color: #4d82bc; /* Change this color bold */
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -2846,14 +2846,14 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #84b6f4;
-  --bs-btn-border-color: #84b6f4;
+  --bs-btn-bg: #84b6f4; /* Change this color light */
+  --bs-btn-border-color: #84b6f4; /* Change this color light */
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #4d82bc;
-  --bs-btn-hover-border-color: #4d82bc;
+  --bs-btn-hover-bg: #4d82bc; /* Change this color bold */
+  --bs-btn-hover-border-color: #4d82bc; /* Change this color bold */
   --bs-btn-focus-shadow-rgb: 60, 198, 171;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #84b6f4;
+  --bs-btn-active-bg: #84b6f4; /* Change this color light */
   --bs-btn-active-border-color: #148d75;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
@@ -6696,7 +6696,7 @@ textarea.form-control-lg {
 }
 
 .link-primary {
-  color: #84b6f4 !important;
+  color: #84b6f4 !important; /* Change this color light */
 }
 .link-primary:hover, .link-primary:focus {
   color: #4d82bc !important;
@@ -10907,13 +10907,13 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #84b6f4;
+  color: #84b6f4; /* Change this color light */
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #84b6f4;
+  color: #84b6f4; /* Change this color light */
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10935,11 +10935,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #84b6f4;
+    background: #84b6f4; /* Change this color light */
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #84b6f4;
+    background: #84b6f4; /* Change this color light */
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -11009,7 +11009,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(44, 62, 80, 0.9);
+  background-color: rgba(44, 62, 80, 0.9); /* Change this color bold */
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
